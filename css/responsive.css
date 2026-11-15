@@ -1,0 +1,24 @@
+/* Responsive layouts and accessibility media queries */
+@media(max-width:560px){.duo{grid-template-columns:1fr}}
+
+@media(max-width:800px){.dsk,.pair{grid-template-columns:1fr}.phones{grid-template-columns:repeat(3,1fr);gap:12px}}
+
+@media(max-width:800px){.connect{grid-template-columns:1fr}}
+
+@media(max-width:560px){#bubble{font-size:15px}}
+
+@media(prefers-reduced-motion:reduce){#aryansh.talk .m{animation:none}}
+
+@media(max-width:800px){.about-grid,.acols>div:last-child{grid-template-columns:1fr}}
+
+@media(prefers-reduced-motion:reduce){#aryansh.arrive{animation:none}}
+
+@media(max-height:820px){#aryansh .m{width:clamp(92px,8.5vw,118px)}#home{padding-block:clamp(28px,4vw,56px)}}
+
+@media(max-width:800px){.abt{width:140px}}
+
+@media(max-width:800px){.hero,.spread{grid-template-columns:1fr}.hero .cols{grid-template-columns:1fr}nav a{font-size:13px}}
+
+@media(max-width:800px){.spread.flip>:first-child{order:0}}
+
+@media(prefers-reduced-motion:reduce){.sheet{transform:none!important;transition:none!important}.pop{transition:none!important;opacity:1!important;transform:rotate(var(--r,0))!important}}
